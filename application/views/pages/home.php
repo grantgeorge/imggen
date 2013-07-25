@@ -1,3 +1,3 @@
 <?php
-print ("Home page");
+	print ("Home page");
 ?>
