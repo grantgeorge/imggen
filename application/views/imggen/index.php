@@ -1,1 +1,1 @@
-<p> Index page </p>
+<p> index.php </p>
