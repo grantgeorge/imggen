@@ -1,3 +1,3 @@
 <?php
-print ("lol test!");
+print ("tee hee test!");
 ?>
