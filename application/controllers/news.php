@@ -23,7 +23,7 @@ class News extends CI_Controller {
 
 		if (empty($data['news_item']))
 		{
-			print("What the ?");
+			show_404();
 		}
 
 		$data['title'] = $data['news_item']['title'];
