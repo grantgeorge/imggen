@@ -53,7 +53,7 @@ $route['(:any)'] = 'imggen/view/$1';
 
 
 
-Commented through tutorial
+// Commented through tutorial
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
