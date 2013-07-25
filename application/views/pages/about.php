@@ -1,6 +1,6 @@
 <?php
 // Create connection
-$con=mysqli_connect("localhost","root","grantD3v","imggen_db");
+$con=mysqli_connect("127.0.0.1","imggen","imggen","imggen_db");
 
 // Check connection
 if (mysqli_connect_errno($con))
