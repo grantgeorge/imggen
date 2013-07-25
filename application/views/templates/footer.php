@@ -1,3 +1,3 @@
-<strong>&copy; 2011</strong>
+<strong> imggen </strong>
 </body>
 </html>
