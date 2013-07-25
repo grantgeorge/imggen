@@ -1,6 +1,6 @@
 <?php
 // Create connection
-$con=mysqli_connect("example.com","peter","abc123","my_db");
+$con=mysqli_connect("localhost","root","grantD3v","imggen_db");
 
 // Check connection
 if (mysqli_connect_errno($con))
