@@ -46,19 +46,19 @@ $route['news'] = 'news';
 $route['(:any)'] = 'pages/view/$1';
 $route['default_controller'] = 'pages/view';
 
-*/
-
 $route['default_controller'] = 'imggen/view';
 $route['(:any)'] = 'imggen/view/$1';
 
-/*
+*/
 
-Commented throuhg tutorial
+
+
+Commented through tutorial
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
-*/
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
