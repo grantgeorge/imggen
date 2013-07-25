@@ -23,7 +23,7 @@ class News extends CI_Controller {
 
 		if (empty($data['news_item']))
 		{
-			$echo 'error';
+			show_404();
 		}
 
 		$data['title'] = $data['news_item']['title'];
@@ -33,4 +33,3 @@ class News extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 }
-?>

@@ -18,4 +18,3 @@ class News_model extends CI_Model P
 		return $query->row_array();
 	}
 }
-?>
