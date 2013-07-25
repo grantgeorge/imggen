@@ -23,7 +23,7 @@ class News extends CI_Controller {
 
 		if (empty($data['news_item']))
 		{
-			show_404();
+			exit('The error is here.');
 		}
 
 		$data['title'] = $data['news_item']['title'];
