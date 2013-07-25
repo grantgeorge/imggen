@@ -1,3 +1,3 @@
 <?php
-print ("Another test!");
+print ("MOAR test!");
 ?>
