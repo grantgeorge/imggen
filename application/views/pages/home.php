@@ -1,3 +1,1 @@
-<?php
-	print("Home page");
-?>
+"Hello, world!"
