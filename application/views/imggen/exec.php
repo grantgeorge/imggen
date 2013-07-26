@@ -2,4 +2,6 @@
 <?php
 shell_exec('cd /var/www/imggen/application/static/js/');
 shell_exec('phantomjs image_capture.js');
+$result = shell_exec('phantomjs --version');
+echo $result;
 ?>
