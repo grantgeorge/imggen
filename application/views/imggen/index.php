@@ -7,3 +7,5 @@
     <p><a href="imggen/<?php echo $imggen_item['title'] ?>">View image</a></p>
 
 <?php endforeach ?>
+
+<p><a href="http://192.241.148.248/imggen/application/image_captures/">Captures</a></p>
