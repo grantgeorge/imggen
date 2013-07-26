@@ -27,6 +27,7 @@ class Imggen extends CI_Controller {
 
 		$data['title'] = $data['imggen_item']['title'];
 
+		$this->load->view('templates/header', $data);
 		$this->load->view('imggen/view', $data);
 	}
 
