@@ -49,7 +49,7 @@ class Imggen extends CI_Controller {
 		}
 		else
 		{
-			$this->immgen_model->set_image();
+			$this->imggen_model->set_image();
 			$this->load->view('imggen/succes');
 		}
 	}
