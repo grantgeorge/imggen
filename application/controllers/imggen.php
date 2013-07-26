@@ -2,31 +2,33 @@
 
 class Imggen extends CI_Controller {
 
-	/*
 	// Construct & load model
 	public function __construct()
 	{
 		parent::__construct();
 		$this->load->model('imggen_model');
 	}
-	*/
 
-	public function view($page = 'home')
+	public function index()
 	{
+		$data['imggen']= $this->imggen_model->get_input();
+		$data['title'] = 'Image creation';
 
-		if ( ! file_exists('application/views/imggen/'.$page.'.php'))
+		$this->load->view('imggen/index', $data);
+	}
+
+	public function view($title)
+	{
+		$data['imggen_item'] = $this->news_model->get_input($title);
+
+		if (empty($data['imggen_item']))
 		{
-			// Whoops, we don't have a page for that!
-			echo 'Error: Page does not exist';
-			// show_404();
+			echo 'Error: imggen view';
 		}
 
-		$data['title'] = ucfirst($page); // Capitalize the first letter
+		$data['title'] = $data['imggen_item']['title'];
 
-		//$this->load->view('templates/header', $data);
-		$this->load->view('imggen/'.$page, $data);
-		//$this->load->view('templates/footer', $data);
-
+		$this->load->view('imggen/view', $data);
 	}
 
 	public function create(){
