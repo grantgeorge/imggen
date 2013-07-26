@@ -9,5 +9,6 @@
         <?php echo $imggen_item['text'] ?>
     </div>
     <p><a href="imggen/<?php echo $imggen_item['title'] ?>"><?php echo $imggen_item['title']?> view</a></p>
+    <p><a href="imggen/<?php echo $imggen_item['title'] ?>/render"><?php echo $imggen_item['title']?> render</a></p>
 
 <?php endforeach ?>
