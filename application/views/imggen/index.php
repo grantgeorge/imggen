@@ -6,6 +6,6 @@
     <div id="main">
         <?php echo $imggen_item['text'] ?>
     </div>
-    <p><a href="imggen/<?php echo $imggen_item['title'] ?>">View image</a></p>
+    <p><a href="imggen/<?php echo $imggen_item['title'] ?>"><?php echo $imggen_item['title']?></a></p>
 
 <?php endforeach ?>
