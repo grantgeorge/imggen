@@ -54,7 +54,7 @@ class Imggen extends CI_Controller {
 			$this->load->view('imggen/success');
 		}
 	}
-
+	/*
 	public function exec($title)
 	{
 		$data['imggen_item'] = $this->imggen_model->get_input($title);
@@ -69,5 +69,5 @@ class Imggen extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('imggen/exec', $data);
 	}
-	
+	*/
 }
