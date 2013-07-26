@@ -1,1 +1,4 @@
-exec("/var/www/imggen");
+<?php
+$result = shell_exec('phantomjs --version');
+echo $result;
+?>
