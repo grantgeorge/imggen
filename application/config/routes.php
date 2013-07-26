@@ -46,10 +46,17 @@ $route['news'] = 'news';
 $route['(:any)'] = 'pages/view/$1';
 $route['default_controller'] = 'pages/view';
 
-*/
+
 
 $route['default_controller'] = 'imggen/view';
 $route['(:any)'] = 'imggen/view/$1';
+
+*/
+
+$route['imggen/(:any)'] = 'imggen/view/$1';
+$route['imggen'] = 'imggen';
+$route['(:any)'] = 'imggen/view/$1';
+$route['default_controller'] = 'imggen/view';
 
 /*
 
