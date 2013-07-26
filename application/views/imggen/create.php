@@ -12,4 +12,6 @@
 
 	<input type="submit" name="submit" value="Create image" />
 
+	<h1><a href="http://192.241.148.248/imggen/index.php/imggen">Index</a></h1>
+
 </form>
