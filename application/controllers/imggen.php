@@ -30,23 +30,28 @@ class Imggen extends CI_Controller {
 		$this->load->view('imggen/view', $data);
 	}
 
-	/*
-	public function create(){
+	
+	public function create()
+	{
 		$this->load->helper('form');
 		$this->load->library('form_validation');
 
 		$data['title'] = 'Create image';
 
-		$this->form_validation->set_rules('text','text','required');
+		$this->form_validation->set_rules('title', 'Title', 'required');
+		$this->form_validation->set_rules('text', 'text', 'required');
 
 		if ($this->form_validation->run() === FALSE)
 		{
+			$this->load->view('templates/header', $data);
 			$this->load->view('imggen/create');
+			$this->load->view('templates/footer');
 		}
 		else
 		{
+			$this->immgen_model->set_image();
 			$this->load->view('imggen/succes');
 		}
 	}
-	*/
+	
 }
