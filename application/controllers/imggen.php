@@ -1,5 +1,4 @@
 <?php
-
 class Imggen extends CI_Controller {
 
 	// Construct & load model
@@ -19,7 +18,7 @@ class Imggen extends CI_Controller {
 
 	public function view($title)
 	{
-		$data['imggen_item'] = $this->news_model->get_input($title);
+		$data['imggen_item'] = $this->imggen_model->get_input($title);
 
 		if (empty($data['imggen_item']))
 		{
