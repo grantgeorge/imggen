@@ -8,15 +8,15 @@ class Imggen extends CI_Controller {
 		if ( ! file_exists('application/views/imggen/'.$page.'.php'))
 		{
 			// Whoops, we don't have a page for that!
-			echo 'error';
+			echo 'Error: Page does not exist';
 			// show_404();
 		}
 
 		$data['title'] = ucfirst($page); // Capitalize the first letter
 
-		$this->load->view('templates/header', $data);
+		//$this->load->view('templates/header', $data);
 		$this->load->view('imggen/'.$page, $data);
-		$this->load->view('templates/footer', $data);
+		//$this->load->view('templates/footer', $data);
 
 	}
 }
