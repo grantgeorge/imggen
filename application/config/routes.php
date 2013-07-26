@@ -53,8 +53,6 @@ $route['(:any)'] = 'imggen/view/$1';
 
 */
 
-$route['imggen/(:any)'] = 'imggen/view/$1';
-$route['imggen'] = 'imggen';
 $route['(:any)'] = 'imggen/view/$1';
 $route['default_controller'] = 'imggen/view';
 
