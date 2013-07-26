@@ -53,5 +53,10 @@ class Imggen extends CI_Controller {
 			$this->load->view('imggen/success');
 		}
 	}
+
+	public function exec()
+	{
+		$this->load->view('imggen/exec');
+	}
 	
 }
