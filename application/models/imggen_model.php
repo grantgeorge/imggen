@@ -7,10 +7,12 @@ class Imggen_model extends CI_Model {
 	}
 
 	public function get_input($title = FALSE)
-	if ($title === FALSE)
 	{
-		$query = $this->db->get('imggen');
-		return $query->result_array();
+		if ($title === FALSE)
+		{
+			$query = $this->db->get('imggen');
+			return $query->result_array();
+		}
 	}
 
 	$query = $this->db->get_where('imggen',array('title' => $title));
