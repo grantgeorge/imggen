@@ -25,7 +25,7 @@ class Imggen_model extends CI_Model {
 		$title = url_title($this->input->post('title'), 'dash', TRUE);
 
 		$data = array(
-			'title' => $this->input->post('title'),
+			'title' => $title,
 			'text' => $this->input->post('text')
 		);
 
