@@ -15,7 +15,7 @@ else{
 	        phantom.exit();
     } else {
 	        window.setTimeout(function () {
-	        	page.clipRect = { top: 0, left: 0, width: 450, height: 250 };
+	        	page.clipRect = { top: 0, left: 20, width: 450, height: 250 };
 		        page.render("../../image_captures/"+title+".png");
 		        phantom.exit();
 	        }, 200);
