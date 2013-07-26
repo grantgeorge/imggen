@@ -57,8 +57,8 @@ $route['imggen/create'] = 'imggen/create';
 $route['imggen/exec'] = 'imggen/exec';
 $route['imggen/(:any)'] = 'imggen/view/$1';
 $route['imggen'] = 'imggen';
-$route['(:any)'] = 'pages/view/$1';
-$route['default_controller'] = 'pages/view';
+$route['(:any)'] = 'imggen/view/$1';
+$route['default_controller'] = 'imggen/view';
 
 /*
 
