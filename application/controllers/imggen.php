@@ -55,9 +55,19 @@ class Imggen extends CI_Controller {
 		}
 	}
 
-	public function exec()
+	public function exec($title)
 	{
-		$this->load->view('imggen/exec');
+		$data['imggen_item'] = $this->imggen_model->get_input($title);
+
+		if (empty$data['imggen_item']))
+		{
+			echo 'Error: exec view';
+		}
+
+		$data['title'] = $data['imggen_item']['title'];
+
+		$this->load->view('templates/header', $data);
+		$this->load->view('imggen/exec', $data);
 	}
 	
 }
