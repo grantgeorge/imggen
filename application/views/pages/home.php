@@ -1,1 +1,1 @@
-<p>"Hello, world!"</p>
+<p>"application/views/pages/home.php"</p>

@@ -1,3 +1,4 @@
+<p>"application/views/pages/home.php"</p>
 <?php
 // Create connection
 $con=mysqli_connect("127.0.0.1","imggen","imggen","imggen_db");
