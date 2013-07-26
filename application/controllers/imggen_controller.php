@@ -8,7 +8,7 @@ class Imggen extends CI_Controller {
 		if ( ! file_exists('application/views/imggen/'.$page.'.php'))
 		{
 			// Whoops, we don't have a page for that!
-			echo "error";
+			echo 'error';
 			// show_404();
 		}
 
