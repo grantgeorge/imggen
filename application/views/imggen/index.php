@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="http://192.241.148.248/imggen/application/static/css/image_view.css" type="text/css">
-<script type="text/javascript" src="http://192.241.148.248/imggen/application/static/js/image_capture.js" ></script>
 <h1><a href="http://192.241.148.248/imggen/application/image_captures/">Image Directory</a></h1>
 <h1><a href="http://192.241.148.248/imggen/index.php/imggen/create">Create</a></h1>
 <?php foreach ($imggen as $imggen_item): ?>
