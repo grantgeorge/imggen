@@ -54,7 +54,7 @@ $route['(:any)'] = 'imggen/view/$1';
 */
 
 $route['imggen/create'] = 'imggen/create';
-$route['imggen/exec'] = 'imggen/exec';
+$route['imggen/exec'] = 'imggen/render';
 $route['imggen/(:any)'] = 'imggen/view/$1';
 //$route['imggen/(:any)/exec'] = 'imggen/exec/$1'
 $route['imggen'] = 'imggen';
