@@ -31,6 +31,7 @@ class Imggen extends CI_Controller {
 		$this->load->view('imggen/view', $data);
 	}
 
+	/*
 	public function create(){
 		$this->load->helper('form');
 		$this->load->library('form_validation');
@@ -48,4 +49,5 @@ class Imggen extends CI_Controller {
 			$this->load->view('imggen/succes');
 		}
 	}
+	*/
 }
