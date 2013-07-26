@@ -2,6 +2,15 @@
 
 class Imggen extends CI_Controller {
 
+	/*
+	// Construct & load model
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model('imggen_model');
+	}
+	*/
+
 	public function view($page = 'home')
 	{
 
