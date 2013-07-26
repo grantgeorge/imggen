@@ -1,5 +1,5 @@
 <h2>exec</h2>
 <?php
-$result = shell_exec('phantomjs /var/www/imggen/application/static/js/image_capture.js');
-echo $result;
+shell_exec('cd /var/www/imggen/application/static/js/');
+shell_exec('phantomjs image_capture.js');
 ?>

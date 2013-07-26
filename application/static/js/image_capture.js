@@ -1,5 +1,5 @@
 var page = require('webpage').create();
-page.open('http://192.241.148.248/imggen/index.php/imggen/Tag1', function () {
+page.open('http://192.241.148.248/imggen/index.php/imggen/TestScript', function () {
 	var title = page.evaluate(function() {
 		return document.title;
 	});
